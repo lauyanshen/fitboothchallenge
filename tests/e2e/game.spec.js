@@ -65,7 +65,7 @@ test("timed round scores correctly, locks answers, pauses feedback, saves best a
   await expect(page.locator(".score")).toHaveText("4/5");
   await expect(page.locator(".explore")).toHaveAttribute(
     "href",
-    "https://fit-plus-health.eddielau.chatgpt.site",
+    "https://lauyanshen.github.io/fitplus/",
   );
   await expect(page.locator(".explore")).toHaveAttribute("target", "_blank");
   await page

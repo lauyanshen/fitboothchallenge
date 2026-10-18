@@ -1,6 +1,6 @@
 # Fit+ Food Detective
 
-A visitor-friendly food discovery game: five picture questions, thirty seconds of answering time, and a new clue after every answer. Created for a Young Coder exhibition and connected to [Fit+](https://fit-plus-health.eddielau.chatgpt.site).
+A visitor-friendly food discovery game: five picture questions, thirty seconds of answering time, and a new clue after every answer. Created for a Young Coder exhibition and connected to [Fit+](https://lauyanshen.github.io/fitplus/).
 
 ## Play locally
 
@@ -20,7 +20,7 @@ Open the local address printed by Vite. Use the browser's full-screen mode for t
 - Thirty seconds of answering time; the timer pauses during explanations. Every answer must be submitted before time expires.
 - Untimed play, optional sound, encouraging badges, replay and return to start.
 - Genuine daily best score stored on the current device. Accuracy ranks before speed; untimed play is excluded. No names, accounts or analytics.
-- Explore Fit+ opens the existing app in a separate tab. Fit+ is unchanged; its existing access controls still apply.
+- Explore Fit+ opens the GitHub-hosted app in a separate tab. AI features reuse the original protected connection and require its authorized sign-in.
 - Voting invitation is text only. The game does not cast or collect votes.
 - Local images and fonts; production build includes an offline cache.
 

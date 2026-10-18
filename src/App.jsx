@@ -23,7 +23,7 @@ import "@fontsource/nunito-sans/latin-400.css";
 import "@fontsource/nunito-sans/latin-600.css";
 import "@fontsource/nunito-sans/latin-800.css";
 
-const FIT_URL = "https://fit-plus-health.eddielau.chatgpt.site";
+const FIT_URL = "https://lauyanshen.github.io/fitplus/";
 const asset = (name) => `${import.meta.env.BASE_URL}assets/${name}.webp`;
 function Brand({ light = false }) {
   return (
