@@ -5,7 +5,7 @@ test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => {
     Math.random = () => 0.7;
   });
-  await page.goto("/");
+  await page.goto(".");
   await expect(
     page.getByRole("button", { name: "Start Challenge", exact: true }),
   ).toBeEnabled();

@@ -24,6 +24,14 @@ Open the local address printed by Vite. Use the browser's full-screen mode for t
 - Voting invitation is text only. The game does not cast or collect votes.
 - Local images and fonts; production build includes an offline cache.
 
+## GitHub Pages
+
+The game is configured for **https://lauyanshen.github.io/fitboothchallenge/**.
+
+In repository **Settings → Pages**, set **Source** to **GitHub Actions**. The workflow **Deploy game to GitHub Pages** builds and publishes `dist/client` on every push to `main`, or when manually run from **Actions**. No additional workflow template is needed.
+
+The deployment sets `VITE_BASE_PATH=/fitboothchallenge/`. Local builds keep `/` by default. Images, scripts, fonts and offline caching respect the deployment path. If you rename the repository, update that path in `.github/workflows/deploy.yml`.
+
 ## Production and offline use
 
 ```sh
